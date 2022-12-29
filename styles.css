@@ -1,0 +1,1320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.small-icons {
+    width: 20px;
+}
+
+.smaller-icons {
+    width: 16px;
+}
+
+.plain-link {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+}
+
+/* Top search area */
+.topmost-div {
+    margin-top: 25px;
+}
+
+.google-icon {
+    height: 30px;
+    margin-left: 20px;
+    margin-right: -300px;
+}
+
+.searchbar {
+    width: 700px;
+    height: 46px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 4px rgb(223, 221, 221), 1px 1px 4px rgb(196, 195, 195);
+}
+
+.search {
+    border: none;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.searchbar-icons {
+    margin-right: 10px;
+    margin-left: -270px;
+    padding-left: 15px;
+    border-left: 0.2px solid rgb(218, 213, 213);
+    gap: 15px;
+}
+
+.si3 {
+    width: 40px;
+}
+
+.si2 {
+    width: 30px;
+    margin-right: -10px;
+}
+
+.top-sidepanel {
+    margin-right: 20px;
+}
+
+/* Top nav area */
+main {
+    margin-left: 175px;
+}
+
+.next-div {
+    margin-top: 20px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.left-nav {
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.next-div .right {
+    padding-bottom: 20px;
+}
+
+
+.nav-items {
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.more {
+    width: 20px;
+    margin-right: -7px;
+    margin-left: -10px;
+}
+
+.nav-items:first-child {
+    border-bottom: 3px solid rgb(72, 134, 250);
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.All {
+    color: rgb(77, 138, 252);
+}
+
+/* first set of photos area */
+.heading {
+    justify-content: flex-start;
+    gap: 3px;
+    margin-bottom: 18px;
+}
+
+.heading p {
+    font-size: 22px;
+}
+
+.heading .big-icon {
+    width: 20px;
+}
+
+.photos {
+    gap: 7px;
+    justify-content: flex-start;
+}
+
+.ronaldo {
+    box-shadow: 0px 3px 0px rgb(86, 117, 252);
+}
+
+.playerdetails {
+    width: 120px;
+    height: 170px;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.playerphoto {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 3px;
+}
+
+.playerdetails .plain-link {
+    margin-left: 8px;
+    width: 105px;
+}
+
+/* showing results area */
+#showresult {
+    color: rgb(61, 60, 60);
+    margin-bottom: 40px;
+}
+
+#showresult a {
+    color: rgb(8, 8, 184);
+    text-decoration: none;
+}
+
+#showresult .feedback {
+    position: absolute;
+    right: 30px;
+    font-size: 12px;
+    color: rgb(61, 60, 60);
+}
+
+#showresult a:hover {
+    text-decoration: underline;
+}
+
+#showresult .feedback:hover {
+    text-decoration: none;
+}
+
+.searchresult {
+    font-size: 18px;
+}
+
+.searchresult span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.showinstead {
+    font-size: 15px;
+}
+
+/* Player details section */
+.playercaption {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.intro .playername {
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+
+.footballer p {
+    font-size: 15px;
+}
+
+.footballer img {
+    margin-top: 3px;
+}
+
+.overview {
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.overview a {
+    background-color: rgb(211, 229, 250);
+    border-radius: 100px;
+    padding: 11px 17px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.overview a:first-child {
+    border: 1px solid blue;
+}
+
+/* Player's photos and more details */
+.player-moredetails {
+    gap: 0px;
+    margin-bottom: 50px;
+    margin-left: -50px;
+    background-image: linear-gradient(180deg, white, rgb(241, 246, 248), rgb(246, 247, 248));
+    padding: 0px 70px 20px 50px;
+    align-items: start;
+}
+
+.playerphotos {
+    display: grid;
+    grid-auto-rows: 150px;
+    grid-template-columns: 300px 400px;
+    column-gap: 3px;
+    margin-right: -150px;
+}
+
+.playerphotos img {
+    width: 100%;
+    height: 300px;
+}
+
+.playerphotos .second {
+    border-top-right-radius: 20px;
+}
+
+.playerphotos .third {
+    border-bottom-left-radius: 20px;
+}
+
+.imgcontainer {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.playerphotos .mega {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.megacontainer1 {
+    grid-row: 1/3;
+}
+
+.midflex {
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.rightflex {
+    width: 250px;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.leftside-rightflex {
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.videoimg {
+    width: 250px;
+    height: 140px;
+    margin-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.midflex .plain-link {
+    font-size: 12px;
+    margin-left: 15px;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+
+.midflex .youtube-video {
+    gap: 0px;
+    margin-left: 15px;
+}
+
+.rightflex .plain-link {
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+
+.midflex .plain-link ul {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: -4px;
+}
+
+.midflex .plain-link li {
+    font-size: 10px;
+}
+
+.midflex .news,
+.rightflex .news {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 220px;
+    font-size: 14px;
+}
+
+.rightflex .news {
+    width: 120px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.midflex .last,
+.rightflex .last {
+    margin-bottom: 15px;
+}
+
+.goalsport {
+    gap: 10px;
+}
+
+.sideimg {
+    width: 90px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.rightflex .sideimg {
+    margin-top: 5px;
+}
+
+.top {
+    width: 250px;
+    justify-content: flex-start;
+    align-items: start;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 130px;
+    gap: 0px;
+}
+
+.bottom {
+    gap: 10px;
+}
+
+.twindiv {
+    width: 100px;
+    background-color: rgb(212, 230, 250);
+    border-radius: 20px;
+    height: 115px;
+    padding: 10px 10px;
+}
+
+.twindiv a:first-child {
+    margin-bottom: 35px;
+}
+
+.twindiv .plain-link {
+    font-size: 14px;
+    display: inline-block;
+    width: 90px;
+}
+
+/* Top Stories left section */
+.topstories {
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.toprow .plain-link,
+.b-link {
+    color: rgb(70, 69, 69);
+    font-size: 18px;
+    font-family: Sans, arial, sans-serif;
+}
+
+.leftside .toprow .small-icons {
+    width: 12px;
+    height: 10px;
+}
+
+.midrow {
+    border-top: 1px solid rgb(219, 217, 217);
+    width: 650px;
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-auto-rows: 142px;
+    grid-template-columns: 320px 320px;
+    column-gap: 20px;
+}
+
+.bigimage {
+    width: 310px;
+    height: 165px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.topstories-img {
+    width: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.skysport {
+    width: 100px;
+    height: 40px;
+    margin-top: -10px;
+}
+
+.skysib {
+    margin-top: -12px;
+}
+
+.leftsidenews {
+    border-right: 1px solid rgb(219, 217, 217);
+    height: 420px;
+    grid-row: 1/3;
+    padding-right: 12px;
+}
+
+.midrow .top {
+    width: 310px;
+    height: 140px;
+    border-top: 1px solid rgb(219, 217, 217);
+    padding-top: 10px;
+    border-radius: 0;
+    margin-top: 0px;
+}
+
+.midrow .leftside-rightflex {
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.midrow .sideimg {
+    height: 90px;
+    border-radius: 8px;
+}
+
+.top.top-right {
+    margin-top: -10px;
+    border-top: none;
+    margin-bottom: -10px;
+}
+
+.top.bottom-left {
+    padding-right: 10px;
+    width: 300px;
+    height: 150px;
+}
+
+.allnews .link {
+    text-decoration: none;
+    color: rgb(39, 4, 192);
+    line-height: 1.4;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.leftsidenews .link {
+    line-height: 1.5;
+    margin-bottom: 5px;
+    width: 320px;
+    padding-right: 5px;
+}
+
+.allnews .link:hover {
+    text-decoration: underline;
+}
+
+.top-icon {
+    margin-bottom: 8px;
+}
+
+.bottomrow {
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(219, 217, 217);
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.bottomrow .link {
+    width: 205px;
+}
+
+.bottomrow .sideimg {
+    margin-left: -5px;
+}
+
+.bottomrow .top .withborder {
+    border-left: 1px solid rgb(219, 217, 217);
+    padding-left: 20px;
+    margin-left: -20px;
+}
+
+.bottomrow .top {
+    border-top: none;
+}
+
+.b-link {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.dailymail {
+    width: 100px;
+    height: 40px;
+    margin-top: -20px;
+}
+
+.sportbible {
+    width: 100px;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.morenews {
+    justify-content: center;
+    gap: 10px;
+    width: 290px;
+    height: 36px;
+    background-color: rgb(241, 242, 243);
+    border-radius: 50px;
+    position: absolute;
+    bottom: -18px;
+    right: 170px
+}
+
+/* More news section */
+.after-morenews {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.after-morenews .biglink {
+    font-size: 20px;
+    width: 550px;
+    margin-bottom: 3px;
+}
+
+.after-morenews .plain-link {
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+    margin-right: 10px;
+}
+
+.after-morenews .longp {
+    width: 600px;
+    line-height: 1.5;
+    color: rgb(75, 74, 74);
+}
+
+.news-lastlink {
+    margin-top: 2px;
+}
+
+.longp span {
+    font-weight: bold;
+}
+
+/* People also ask section */
+.also-ask {
+    margin-bottom: 10px;
+}
+
+.also-ask .topstories {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 640px;
+}
+
+.also-ask .summ {
+    border-top: 1px solid rgb(219, 217, 217);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.summ.last-summ {
+    width: 580px;
+    color: white;
+    position: relative;
+}
+
+.summ.second-last {
+    padding-bottom: 20px;
+}
+
+.down-arrow {
+    width: 12px;
+    margin-right: 7px;
+}
+
+details {
+    width: 640px;
+}
+
+details .summ {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lastsumm .feedback {
+    position: absolute;
+    right: -65px;
+    bottom: 32px;
+    font-size: 12px;
+    color: rgb(61, 60, 60);
+}
+
+#lastsumm .feedback:hover {
+    text-decoration: underline;
+}
+
+.networth {
+    justify-content: space-between;
+    width: 400px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.longp.longp-except {
+    width: 520px;
+}
+
+.third-morenews {
+    position: relative;
+}
+
+.news-sideimg {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    height: 90px;
+    border-radius: 8px;
+}
+
+/* Top Stories right section */
+
+.rightside {
+    border-left: 1px solid rgb(219, 217, 217);
+    height: 1395px;
+    width: 330px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.dotcom {
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 50px;
+    width: 165px;
+    padding: 7px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.claim-panel .dotcom {
+    padding: 5px;
+}
+
+.allnews {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.rightside .p-right {
+    line-height: 1.5;
+    color: rgb(75, 74, 74);
+    font-size: 14px;
+}
+
+.rightside .p-right.first-child {
+    margin-bottom: 5px;
+}
+
+.rightside .bold {
+    font-weight: bold;
+}
+
+.safety {
+    width: 22px;
+}
+
+.claim {
+    width: 220px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.link.team {
+    margin-right: 2px;
+}
+
+.claim-panel {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 1px solid rgb(219, 217, 217);
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+}
+
+.claim-panel .feedback {
+    font-size: 12px;
+    padding-top: 18px;
+}
+
+/* Stats section */
+.rightside .stats {
+    width: 340px;
+    margin-bottom: 10px;
+}
+
+.stats .small-icons {
+    width: 12px;
+    height: 10px;
+    border: 1px solid rgb(219, 217, 217);
+    padding: 9px 8px;
+    border-radius: 100%;
+}
+
+.portugal {
+    width: 350px;
+    color: rgb(77, 74, 74);
+}
+
+.portugal .title {
+    font-size: 14.5px;
+    margin-bottom: 15px;
+}
+
+.line {
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-template-columns: 2fr 1fr 1fr;
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(219, 217, 217);
+}
+
+.line span {
+    justify-self: center;
+}
+
+.line .toright {
+    justify-self: start;
+}
+
+.team-stats .line:first-child {
+    padding: 0;
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+    height: 22px;
+}
+
+.team-stats .line:last-child {
+    padding-bottom: 45px;
+}
+
+.league-content {
+    gap: 5px;
+}
+
+.league-content a {
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+}
+
+.league-content:hover {
+    text-decoration: underline;
+}
+
+.league-content .league-year {
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+}
+
+/* Profiles section */
+.profile {
+    padding-top: 10px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid rgb(219, 217, 217);
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.socials .link {
+    color: black;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
+
+.socials {
+    align-items: center;
+    gap: 8px;
+}
+
+.social-handles {
+    width: 340px;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.profile-icon {
+    width: 30px;
+}
+
+/* People Also search for  */
+.players-searched {
+    width: 350px;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.searchfor .link {
+    color: black;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    width: 50px;
+    height: 15px;
+}
+
+.searchfor {
+    margin-bottom: 52px;
+}
+
+.searchfor .sideimg {
+    height: 80px;
+    border-radius: 8px;
+}
+
+.each-player {
+    align-items: start;
+    gap: 5px;
+}
+
+.each-player span {
+    color: rgb(150, 149, 149)
+}
+
+.rightside .see-more {
+    justify-content: center;
+    gap: 10px;
+    width: 350px;
+    height: 36px;
+    background-color: rgb(241, 242, 243);
+    border-radius: 50px;
+}
+
+/* Videos  */
+.videos {
+    width: 650px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.video-text {
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.video-text .small-icons {
+    width: 12px;
+    height: 10px;
+}
+
+.video-text .b-link {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
+
+.videos .b-link:hover {
+    color: rgb(39, 4, 192);
+}
+
+.videos .eachvideo {
+    border-top: 1px solid rgb(219, 217, 217);
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 5px 0;
+}
+
+.videos video {
+    width: 124px;
+}
+
+.videos .crvideo {
+    width: 120px;
+    height: 70px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.videodetails {
+    margin-top: 10px;
+}
+
+.videodetails span {
+    color: black;
+}
+
+.eachvideo .link {
+    color: rgb(39, 4, 192);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.eachvideo .plain-link {
+    margin-bottom: 5px;
+}
+
+.videos .last-video {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(219, 217, 217);
+}
+
+/* Ronaldo on Twitter  */
+.on-twitter {
+    margin-bottom: 50px;
+}
+
+.on-twitter .plain-link {
+    color: rgb(116, 114, 114);
+}
+
+.on-twitter .link {
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(39, 4, 192);
+}
+
+.on-twitter .link:hover {
+    text-decoration: underline;
+}
+
+.plain-link.black {
+    color: rgb(36, 36, 36);
+    font-size: 16px;
+}
+
+.tweets {
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.each-tweet {
+    position: relative;
+    width: 220px;
+    height: 500px;
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 7px;
+    padding-top: 10px;
+}
+
+.tweet-top {
+    position: relative;
+    justify-content: flex-start;
+    width: 190px;
+    padding: 0 0px 12px 0px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    gap: 15px;
+}
+
+.each-tweet:last-child .tweet-top {
+    border-bottom: 1px solid rgb(219, 217, 217);
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+}
+
+.twittername-container {
+    gap: 5px;
+}
+
+.top-text:hover {
+    text-decoration: underline;
+}
+
+.twitter-picture {
+    border-radius: 50px;
+    width: 50px;
+}
+
+.tick-icon {
+    position: absolute;
+    bottom: 12px;
+    left: 39px;
+    width: 18px;
+}
+
+.each-tweet .on-twitter-pic {
+    width: 220px;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.on-twitter .twitter-news,
+.on-twitter .twitter-news-time {
+    line-height: 1.5;
+    padding-left: 13px;
+    font-size: 14px;
+    width: 82%;
+}
+
+.each-tweet span {
+    color: rgb(36, 36, 36);
+}
+
+.twitter-news-time {
+    position: absolute;
+    bottom: 20px;
+}
+
+.on-twitter .right-arrow {
+    width: 12px;
+    height: 14px;
+    border: 1px solid rgb(219, 217, 217);
+    padding: 11px 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 200px;
+    right: -20px;
+    background-color: white;
+}
+
+/* More news after Twitter  */
+.more-after-twitter .link {
+    text-decoration: none;
+    width: 560px;
+}
+
+.more-after-twitter .link:hover {
+    text-decoration: underline;
+}
+
+.more-after-twitter .after-morenews .longp {
+    width: 580px;
+}
+
+.more-after-twitter .after-morenews .longp.longp-last {
+    width: 550px;
+}
+
+.more-after-twitter .after-morenews {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.more-after-twitter .after-morenews .news-sideimg {
+    top: 0px;
+    right: 520px;
+}
+
+/* Related Searches  */
+.related-searches {
+    position: relative;
+    margin-top: 40px;
+    width: 650px;
+    padding-bottom: 20px;
+}
+
+.related-searches .heading {
+    width: 650px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(219, 217, 217);
+    margin-bottom: 15px;
+}
+
+.related-searches .heading p {
+    font-size: 20px;
+}
+
+.strikers-heading .plain-link {
+    font-size: 16px;
+    color: rgb(39, 39, 39);
+    margin-bottom: 20px;
+}
+
+.strikers-heading .small-icons {
+    width: 18px;
+    padding-bottom: 15px;
+}
+
+.related-searches .strikers {
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.strikers .sideimg {
+    height: 100px;
+    width: 100px;
+}
+
+.strikers .link {
+    color: black;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    width: 75px;
+    text-decoration: none;
+}
+
+.strikers .each-player {
+    gap: 8px;
+    height: 220px;
+    justify-content: flex-start;
+}
+
+.related-searches .morenews {
+    bottom: 20px;
+    left: 180px
+}
+
+/* More related searches section  */
+.more-related .sideimg {
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.more-related .summ {
+    width: 650px;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+}
+
+.more-related .summ.last-summ {
+    width: 580px;
+}
+
+.more-related .summ .down-arrow {
+    position: absolute;
+    right: 0;
+}
+
+/* Page end search section  */
+.pageend-search {
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+
+.searchbox:hover {
+    text-decoration: underline;
+}
+
+.pageend-search .searchbox {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 295px;
+    height: 36px;
+    background-color: rgb(241, 242, 243);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.searchbox span {
+    font-weight: bold;
+}
+
+.searchbox .small-icons {
+    width: 28px;
+}
+
+.searchbox .plain-link {
+    color: black;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.searchbox-set {
+    gap: 8px;
+}
+
+.google-long {
+    margin-left: 160px;
+    margin-bottom: 40px;
+}
+
+/* footer section  */
+.footer {
+    background-color: rgb(241, 242, 243);
+    min-height: 110px;
+    font-size: 15px;
+}
+
+.firstline {
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid rgb(219, 217, 217);
+    position: relative;
+    padding-top: 10px;
+}
+
+.firstline .country {
+    margin-left: 180px;
+    padding-right: 15px;
+    color: rgb(117, 117, 117);
+}
+
+.boldblack {
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer .area {
+    gap: 2px;
+}
+
+.justborder {
+    position: absolute;
+    border-right: 1px solid rgb(219, 217, 217);
+    content: none;
+    left: 240px;
+    min-height: 40px;
+}
+
+.bigball {
+    font-size: 40px;
+}
+
+.footer .plain-link.blue {
+    color: rgb(62, 5, 167);
+}
+
+.secondline {
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 12px;
+    gap: 25px;
+    margin-left: 180px;
+}
